@@ -1,0 +1,119 @@
+body {
+    background-color: #222;
+}
+
+p {
+    
+    text-align: justify;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    margin-left: 12px;
+}
+
+hr {
+    width: 90%;
+    color: #EAEAEA;
+    background-color: #EAEAEA;
+    height: 1.5px;
+    border-radius: 15px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 28px;
+    border-radius: 3px;
+    padding-left: 4px; 
+}
+
+input[type=date] {
+    width: 300px;
+    height: 28px;
+    border-radius: 3px;
+    padding-left: 4px;
+}
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    width: 300px;
+    height: 28px;
+    border-radius: 3px;
+    padding-left: 4px;
+    -moz-appearance:textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=email] {
+    width: 300px;
+    height: 28px;
+    border-radius: 3px;
+    padding-left: 4px;
+}
+
+input[type=tel] {
+    width: 300px;
+    height: 28px;
+    border-radius: 3px;
+    padding-left: 4px;
+}
+
+.logo {
+    position: relative;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    left: 90%;
+    height: 90px;
+    z-index: 5;
+}
+
+.container {
+    background-color: rgba(255,255,255,1);
+    padding: 50px;
+}
+
+.toa h3,
+.toa h4,
+.toa h5,
+.toa h6 {
+    margin-left: 0px;
+}
+
+.btn-back {
+    position: absolute;
+    height: 35px;
+    width: auto;
+    top: 20px;
+    left: 20px;
+    opacity: 0.5;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.btn-back:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        background: none;
+    }
+
+    .container {
+        padding-top: 40px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}

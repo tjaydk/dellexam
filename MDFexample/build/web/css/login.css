@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 22, 2015, 5:58:11 PM
+    Author     : Dennis
+*/
+
+
+
+
+html { 
+    background: url("../img/blueback.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: transparent;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgba(255,255,255,0.5);
+}
+
+p {
+    color: rgba(255,255,255,0.5);
+    font-size: 0.9em;
+}
+
+i {
+    color: rgba(255,255,255,0.5);
+    font-size: 150px !important;
+}
+
+.nav {
+    height: 75px;
+    background-color: transparent;
+    color: white;
+}
+
+.nav .navbar-brand {
+    position: absolute;
+    top: 8px;
+}
+
+
+.nav a {
+    position: absolute;
+    top: 8px;
+}
+
+.navbar-form {
+    position: absolute;
+    top: 25px;
+    right: 95px;
+}
+
+.navbar-form .form-control{
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+    color: rgb(216, 216, 216);
+}
+
+.navbar-form .btn {
+    background-color: rgba(21, 124, 161, 0.8);
+    color: white;
+    border: none;
+    webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.navbar-form .btn:hover {
+    background-color: rgba(21, 124, 161, 1);
+}
+
+.main {
+    margin-top: 275px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.brand {
+    position: absolute;
+    top: 45px;
+    left: 45px;
+}
+
+.brand img{
+    height: 25px;
+    opacity: 0.1;
+}
